@@ -1,0 +1,1282 @@
+[
+  {
+    "content": "Created MRAppMaster for application appattempt_1445144423722_0020_000001",
+    "template": "Created MRAppMaster for application <*>",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "ERROR IN CONTACTING RM.",
+    "template": "ERROR IN CONTACTING RM.",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "jetty-6.1.26",
+    "template": "jetty-<*>",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "Task: attempt_1445144423722_0020_m_000001_0 - exited : java.net.NoRouteToHostException: No Route to Host from  MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost",
+    "template": "Task: <*> - exited : java.net.NoRouteToHostException: No Route to Host from <*> to <*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "Num completed Tasks: 1",
+    "template": "Num completed Tasks: <*>",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog",
+    "template": "Logging to <*>(org.mortbay.log) via <*>",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "Recalculating schedule, headroom=<memory:1024, vCores:-26>",
+    "template": "Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "Extract jar:file:/D:/hadoop-2.6.0-localbox/share/hadoop/yarn/hadoop-yarn-common-2.6.0-SNAPSHOT.jar!/webapps/mapreduce to C:\\Users\\msrabi\\AppData\\Local\\Temp\\Jetty_0_0_0_0_62267_mapreduce____.8n7xum\\webapp",
+    "template": "Extract jar:file:<*> to <*>",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "DataStreamer Exception",
+    "template": "DataStreamer Exception",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 277 seconds.  Will retry shortly ...",
+    "template": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "Error Recovery for block BP-1347369012-10.190.173.170-1444972147527:blk_1073743512_2731 in pipeline 10.86.169.121:50010, 10.190.173.170:50010: bad datanode 10.190.173.170:50010",
+    "template": "Error Recovery for block <*> in pipeline <*>:<*>, <*>:<*>: bad datanode <*>:<*>",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context static",
+    "template": "Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context static",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "Opening proxy : MININT-FNANLI5.fareast.corp.microsoft.com:52368",
+    "template": "Opening proxy : <*>",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "TaskAttempt: [attempt_1445144423722_0020_m_000000_0] using containerId: [container_1445144423722_0020_01_000002 on NM: [04DN8IQ.fareast.corp.microsoft.com:54883]",
+    "template": "TaskAttempt: [<*>] using containerId: [<*> on NM: [<*>:<*>]",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "Processing the event EventType: TASK_ABORT",
+    "template": "Processing the event EventType: TASK_ABORT",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)",
+    "template": "Retrying connect to server: <*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "Address change detected. Old: msra-sa-41/10.190.173.170:8030 New: msra-sa-41:8030",
+    "template": "Address change detected. Old: <*> New: <*>:<*>",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "job_1445144423722_0020Job Transitioned from SETUP to RUNNING",
+    "template": "<*> Transitioned from SETUP to RUNNING",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "Before Scheduling: PendingReds:0 ScheduledMaps:1 ScheduledReds:1 AssignedMaps:10 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3",
+    "template": "Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "Using mapred newApiCommitter.",
+    "template": "Using mapred newApiCommitter.",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "Emitting job history data to the timeline server is not enabled",
+    "template": "Emitting job history data to the timeline server is not enabled",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "Started HttpServer2&dollar;SelectChannelConnectorWithSafeStartup@0.0.0.0:62267",
+    "template": "Started HttpServer2&dollar;SelectChannelConnectorWithSafeStartup@<*>",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "adding path spec: /ws/*",
+    "template": "adding path spec: <*>",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "Using callQueue class java.util.concurrent.LinkedBlockingQueue",
+    "template": "Using callQueue class java.util.concurrent.LinkedBlockingQueue",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "yarn.client.max-cached-nodemanagers-proxies : 0",
+    "template": "yarn.client.max-cached-nodemanagers-proxies : <*>",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "IPC Server listener on 62270: starting",
+    "template": "IPC Server listener on <*>: starting",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "Event Writer setup for JobId: job_1445144423722_0020, File: hdfs://msra-sa-41:9000/tmp/hadoop-yarn/staging/msrabi/.staging/job_1445144423722_0020/job_1445144423722_0020_1.jhist",
+    "template": "Event Writer setup for JobId: <*>, File: <*>",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "maxTaskFailuresPerNode is 3",
+    "template": "maxTaskFailuresPerNode is <*>",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "Web app /mapreduce started at 62267",
+    "template": "Web app <*> started at <*>",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "Default file system [hdfs://msra-sa-41:9000]",
+    "template": "Default file system [<*>]",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "All maps assigned. Ramping up all remaining reduces:1",
+    "template": "All maps assigned. Ramping up all remaining reduces:<*>",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container container_1445144423722_0020_01_000005 taskAttempt attempt_1445144423722_0020_m_000003_0",
+    "template": "Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container <*> taskAttempt <*>",
+    "dataset": "Hadoop"
+  },
+  {
+    "content": "PacketResponder 1 for block blk_38865049064139660 terminating",
+    "template": "PacketResponder <*> for block <*> terminating",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "BLOCK* NameSystem.allocateBlock: /user/root/rand3/_temporary/_task_200811101024_0005_m_001655_0/part-01655. blk_-6802153775367591521",
+    "template": "BLOCK* NameSystem.allocateBlock: <*> <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "10.251.215.70:50010:Got exception while serving blk_-20269367189114433 to /10.251.30.179:",
+    "template": "<*>:Got exception while serving <*> to <*>:",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "Deleting block blk_-7353572928777348242 file /mnt/hadoop/dfs/data/current/subdir22/blk_-7353572928777348242",
+    "template": "Deleting block <*> file <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "BLOCK* NameSystem.delete: blk_-7418499425236853516 is added to invalidSet of 10.251.203.4:50010",
+    "template": "BLOCK* NameSystem.delete: <*> is added to invalidSet of <*>:<*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "BLOCK* ask 10.250.10.213:50010 to delete  blk_4029139044660806713 blk_-5471189807977280544 blk_6708643067868168687 blk_-500678958150296008 blk_-8597840983621849778 blk_-3610057702150392748 blk_-1709606535283888232 blk_-4154362211643572668 blk_-8892080524136798472 blk_5356427838869009345 blk_-6987238639050161133 blk_-5215128860160823363 blk_7186692462976470823 blk_-6538449588297475521 blk_-2165930080589343952 blk_-5524899010031625427 blk_6384439316405471171 blk_-2965258329365213675 blk_118950937507976810 blk_-1717088081766373300 blk_-3911466865418055820 blk_1237334407720045724 blk_-760015977981369567 blk_-6802007379650646616 blk_-7667535133893574689 blk_6865645438678864855 blk_4633996820313194570 blk_7225301266481603731 blk_-4930257130609958866 blk_-4124845864570823487 blk_4927011145115127531 blk_7234346856930822716 blk_7159969052744592746 blk_1296823600557793869 blk_2209319141644287774 blk_-622218131799806364 blk_-8154516246083521409 blk_4466433199471909449 blk_8406894133999850666 blk_991075908349619367 blk_-2081474832657208733 blk_-5573393775847919985 blk_2004177185950968695 blk_4041319486058127641 blk_6449230045010995668 blk_5978265573904271474 blk_-4813738732036414715 blk_4389340532803855247 blk_-857151863616763327 blk_-7200136644339435027 blk_-1454962873426270839 blk_-5012294311590635938 blk_7112727670634942639 blk_3335012758760643328 blk_3382627815322561484 blk_825124020036421636 blk_-8040559034239258688 blk_-5415591001139074826 blk_-1052513063506891954 blk_-1155882018729560343 blk_-5679835604685169040 blk_-4498808851217768984 blk_8345415947062862337 blk_8521655806854586696 blk_7602939593939794410 blk_-4833650023923869528 blk_7237730029042141635 blk_2860897425785746911 blk_-1937193099911148343 blk_5740615689780260922 blk_963252337613423037 blk_5537011318013544619 blk_2626057344048606017 blk_8296499240199635880 blk_7211071078501521087 blk_8823112510768971040 blk_-3366974935992288326 blk_-2947778702643296262 blk_7693891282153136044 blk_4644812717442758529 blk_-5724970555730638200 blk_-3039294462945223064 blk_-1729755380346651221 blk_-6448673813272428418 blk_-7724282460846954976 blk_2698691234887375588 blk_-4043525878322523713 blk_-5195120009388265 blk_8879208244602324204 blk_-5784376901556131897 blk_-5201149273969117873 blk_5253889604362640423 blk_7067050654303940677 blk_8992626816092659826 blk_-488462739843441981 blk_8543991617360374935 blk_1943146154560599630 blk_-9194660123773136535 blk_3351984198891394382 blk_-6759123807563555545",
+    "template": "BLOCK* ask <*>:<*> to delete <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "Received block blk_6516880861186877710 of size 67108864 from /10.251.42.84",
+    "template": "Received block <*> of size <*> from <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "Verification succeeded for blk_-2827716238972737794",
+    "template": "Verification succeeded for <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "Receiving block blk_-5057534532247887258 src: /10.250.5.237:45766 dest: /10.250.5.237:50010",
+    "template": "Receiving block <*> src: <*>:<*> dest: <*>:<*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "BLOCK* ask 10.251.122.79:50010 to delete  blk_8048594464172649365",
+    "template": "BLOCK* ask <*>:<*> to delete <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "BLOCK* ask 10.250.17.177:50010 to delete  blk_-8570780307468499817 blk_-9122557405432088649 blk_-4393063808227796056 blk_8767569714374844347 blk_7079754042611867581 blk_7608961006114219538 blk_-5017273584996436939 blk_-6537833125980536955 blk_7610838808763810123 blk_3300803097775546532 blk_-5120750586032922592 blk_1577274266662884430 blk_765879159867598347 blk_-9076085976403711202 blk_-3198963348573340497 blk_-4645750029177277209 blk_-5136142986912961316 blk_5677959846373741243 blk_2107477892986152528 blk_-4235116161537008844 blk_6082535783543982566 blk_-4809870147222033236 blk_8818706925296961012 blk_-5203577173046267127 blk_189089569009261656 blk_446299976487589160 blk_-3916247521166632303 blk_-3324962406687427922 blk_-1807424528783081572 blk_-6858401049333055963 blk_6036564204960295926 blk_-8140723044408248078 blk_-3800132731140204959 blk_1716344083117307767 blk_-5194808114606613364 blk_-5473871016976323232 blk_2920934363167004552 blk_8736689095894369097 blk_-7642734632751940776 blk_3408482260833769309 blk_118013751374560901 blk_7963891081239759520 blk_3813114133944383323 blk_3042818489384932576 blk_-4570173726231458270 blk_-1564644006975920581 blk_338095650783321996 blk_3150135312641203550 blk_4285859645577726288 blk_3438772130782939627 blk_2634772258588877972 blk_-6795664812575964130 blk_3923069610304693233 blk_-1782996202120067721 blk_2004418049430157212 blk_1932147224007687756 blk_-582901062969027153 blk_5072240701440032119 blk_-7919006477393039068 blk_-7318022361288598312 blk_-6974693594143537436 blk_-5435767047126325206 blk_-5805500288959332434 blk_-7109885589081848850 blk_2161580591957523893 blk_7240227881194993860 blk_-8298405680648445349 blk_-4253026248821272215 blk_8377661448601579317 blk_8029153852899017155 blk_-8754388319080705916 blk_-7844092300527332901 blk_710178463364063355 blk_-5136849989188547884 blk_8393887138377503163 blk_-6950176077776664217 blk_-6488701068659548195 blk_2537458728254532453 blk_364441107933628577 blk_6207861897580168557 blk_8814943807366894581 blk_-4150682644311695471 blk_9174833667156726933 blk_649427218152856001 blk_-7403541028238011236 blk_-334982586592048773 blk_61908781908925992 blk_6385574357371832424 blk_-66376131060945541 blk_1372596948297458670 blk_-3389135155401857220 blk_-6035411221441929663 blk_-5127580069634421247 blk_-5685246533892022418 blk_4977937528993040451 blk_5680538862600094527 blk_-8378747462487962732 blk_425101290285860876 blk_6306622708327890839 blk_-1067866602168873257",
+    "template": "BLOCK* ask <*>:<*> to delete <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.39.192:50010 is added to blk_-3888538223380979891 size 67108864",
+    "template": "BLOCK* NameSystem.addStoredBlock: blockMap updated: <*>:<*> is added to <*> size <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "10.250.15.198:50010 Starting thread to transfer block blk_4292382298896622412 to 10.250.15.240:50010",
+    "template": "<*>:<*> Starting thread to transfer block <*> to <*>:<*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "10.251.90.64:50010 Served block blk_-5719934513583495857 to /10.251.199.245",
+    "template": "<*>:<*> Served block <*> to <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "Received block blk_-4411589101766563890 src: /10.250.14.38:37362 dest: /10.250.14.38:50010 of size 67108864",
+    "template": "Received block <*> src: <*>:<*> dest: <*>:<*> of size <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "10.251.109.209:50010 Served block blk_4848669047361069041 to /10.251.26.177",
+    "template": "<*>:<*> Served block <*> to <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "Deleting block blk_-6008397446568765070 file /mnt/hadoop/dfs/data/current/blk_-6008397446568765070",
+    "template": "Deleting block <*> file <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "Received block blk_-185994527242886002 of size 3552954 from /10.251.39.160",
+    "template": "Received block <*> of size <*> from <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "Receiving block blk_-6135061626100136978 src: /10.251.31.180:48900 dest: /10.251.31.180:50010",
+    "template": "Receiving block <*> src: <*>:<*> dest: <*>:<*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "Received block blk_4231049049582051919 of size 28496610 from /10.250.19.227",
+    "template": "Received block <*> of size <*> from <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "10.250.14.38:50010 Served block blk_-8674089929114017279 to /10.250.14.38",
+    "template": "<*>:<*> Served block <*> to <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "Received block blk_6685663454079607598 of size 10157271 from /10.251.66.3",
+    "template": "Received block <*> of size <*> from <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "10.251.215.50:50010 Served block blk_3963698556744744747 to /10.251.107.196",
+    "template": "<*>:<*> Served block <*> to <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "BLOCK* ask 10.250.14.38:50010 to replicate blk_-7571492020523929240 to datanode(s) 10.251.122.38:50010",
+    "template": "BLOCK* ask <*> to replicate <*> to datanode(s) <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "Deleting block blk_-2098161025946048013 file /mnt/hadoop/dfs/data/current/subdir17/blk_-2098161025946048013",
+    "template": "Deleting block <*> file <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "BLOCK* ask 10.250.17.177:50010 to delete  blk_-8570780307468499817 blk_-9122557405432088649 blk_-4393063808227796056 blk_8767569714374844347 blk_7079754042611867581 blk_7608961006114219538 blk_-5017273584996436939 blk_-6537833125980536955 blk_7610838808763810123 blk_3300803097775546532 blk_-5120750586032922592 blk_1577274266662884430 blk_765879159867598347 blk_-9076085976403711202 blk_-3198963348573340497 blk_-4645750029177277209 blk_-5136142986912961316 blk_5677959846373741243 blk_2107477892986152528 blk_-4235116161537008844 blk_6082535783543982566 blk_-4809870147222033236 blk_8818706925296961012 blk_-5203577173046267127 blk_189089569009261656 blk_446299976487589160 blk_-3916247521166632303 blk_-3324962406687427922 blk_-1807424528783081572 blk_-6858401049333055963 blk_6036564204960295926 blk_-8140723044408248078 blk_-3800132731140204959 blk_1716344083117307767 blk_-5194808114606613364 blk_-5473871016976323232 blk_2920934363167004552 blk_8736689095894369097 blk_-7642734632751940776 blk_3408482260833769309 blk_118013751374560901 blk_7963891081239759520 blk_3813114133944383323 blk_3042818489384932576 blk_-4570173726231458270 blk_-1564644006975920581 blk_338095650783321996 blk_3150135312641203550 blk_4285859645577726288 blk_3438772130782939627 blk_2634772258588877972 blk_-6795664812575964130 blk_3923069610304693233 blk_-1782996202120067721 blk_2004418049430157212 blk_1932147224007687756 blk_-582901062969027153 blk_5072240701440032119 blk_-7919006477393039068 blk_-7318022361288598312 blk_-6974693594143537436 blk_-5435767047126325206 blk_-5805500288959332434 blk_-7109885589081848850 blk_2161580591957523893 blk_7240227881194993860 blk_-8298405680648445349 blk_-4253026248821272215 blk_8377661448601579317 blk_8029153852899017155 blk_-8754388319080705916 blk_-7844092300527332901 blk_710178463364063355 blk_-5136849989188547884 blk_8393887138377503163 blk_-6950176077776664217 blk_-6488701068659548195 blk_2537458728254532453 blk_364441107933628577 blk_6207861897580168557 blk_8814943807366894581 blk_-4150682644311695471 blk_9174833667156726933 blk_649427218152856001 blk_-7403541028238011236 blk_-334982586592048773 blk_61908781908925992 blk_6385574357371832424 blk_-66376131060945541 blk_1372596948297458670 blk_-3389135155401857220 blk_-6035411221441929663 blk_-5127580069634421247 blk_-5685246533892022418 blk_4977937528993040451 blk_5680538862600094527 blk_-8378747462487962732 blk_425101290285860876 blk_6306622708327890839 blk_-1067866602168873257",
+    "template": "BLOCK* ask <*>:<*> to delete <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "Receiving block blk_7672124247291403094 src: /10.251.66.3:55531 dest: /10.251.66.3:50010",
+    "template": "Receiving block <*> src: <*>:<*> dest: <*>:<*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "Received block blk_3242229894054064344 of size 3540106 from /10.250.15.240",
+    "template": "Received block <*> of size <*> from <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "Received block blk_-4935573595350235765 of size 67108864 from /10.251.123.195",
+    "template": "Received block <*> of size <*> from <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "10.251.30.134:50010 Served block blk_2039230511363331616 to /10.251.65.203",
+    "template": "<*>:<*> Served block <*> to <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "Received block blk_955083461510572332 of size 41287838 from /10.251.107.242",
+    "template": "Received block <*> of size <*> from <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "Deleting block blk_4513772639980123655 file /mnt/hadoop/dfs/data/current/blk_4513772639980123655",
+    "template": "Deleting block <*> file <*>",
+    "dataset": "HDFS"
+  },
+  {
+    "content": "onStandStepChanged 3579",
+    "template": "onStandStepChanged <*>",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "REPORT : 0 0 0 0",
+    "template": "REPORT : <*> <*> <*> <*>",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "clear()",
+    "template": "clear()",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "saveHealthDetailData() deviceID = 2,clientID=1,id=1",
+    "template": "saveHealthDetailData() deviceID = <*>,clientID=<*>,id=<*>",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "registersensorsuccess: true",
+    "template": "registersensorsuccess: <*>",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "setTodayTotalDetailSteps=1514038560000##7103##548580##8661##16256##27318472",
+    "template": "setTodayTotalDetailSteps=<*>##<*>##<*>##<*>##<*>##<*>",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "startSync hiSyncOption = HiSyncOption{syncAction=2, syncMethod=2, syncScope=0, syncDataType=20000, syncModel=2, pushAction=0},app = 1 who = 1",
+    "template": "startSync hiSyncOption = HiSyncOption{syncAction=<*>, syncMethod=<*>, syncScope=<*>, syncDataType=<*>, syncModel=<*>, pushAction=<*>},app = <*> who = <*>",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "ifCanSync not! no cloud version",
+    "template": "ifCanSync not! no cloud version",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "new date =20171223, type=40005,240.0,old=330.0",
+    "template": "new date =<*>, type=<*>,<*>,old=<*>",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "processHandleBroadcastAction action:android.intent.action.SCREEN_ON",
+    "template": "processHandleBroadcastAction action:android.intent.action.SCREEN_ON",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "getTodaySportData mStepsRecordManager=com.huawei.health.g.c@8a2a501",
+    "template": "getTodaySportData mStepsRecordManager=<*>",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "uploadStaticsToDB() onResult  type = 4 obj=true",
+    "template": "uploadStaticsToDB() onResult type = <*> obj=<*>",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "onExtend:1514038667000 2 0 4",
+    "template": "onExtend:<*> <*> <*> <*>",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "setWriteDBLastDataMinute=25233979",
+    "template": "setWriteDBLastDataMinute=<*>",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "initUserPrivacy the userPrivacy switch is open, start push user data!",
+    "template": "initUserPrivacy the userPrivacy switch is open, start push user data!",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "flushTempCacheToDB by stand",
+    "template": "flushTempCacheToDB by stand",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "calculateCaloriesWithCache totalCalories=130266",
+    "template": "calculateCaloriesWithCache totalCalories=<*>",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is 20171224 oldDay is 20171223",
+    "template": "checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is <*> oldDay is <*>",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "screen status unknown,think screen on",
+    "template": "screen status unknown,think screen on",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "closeNotification...",
+    "template": "closeNotification...",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "sendSyncFailedBroadcast",
+    "template": "sendSyncFailedBroadcast",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "timeStamp back,extendReportTimeStamp=1514042082000",
+    "template": "timeStamp back,extendReportTimeStamp=<*>",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "reload : 3786 restar 0",
+    "template": "reload : <*> restar <*>",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "Alarm uploadStaticsToDB totalSteps=7163Calories:153367Floor:240Distance:5112",
+    "template": "Alarm uploadStaticsToDB totalSteps=<*>Calories:<*>Floor:<*>Distance:<*>",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "next day:steps0mLastReport7214",
+    "template": "next day:<*>",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "stepSyncOrNot appSynTimes is 0, statsyncTimes is 0",
+    "template": "stepSyncOrNot appSynTimes is <*>, statsyncTimes is <*>",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "getStepCounterStatus",
+    "template": "getStepCounterStatus",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = 4,errorMessage = ERR_DATA_INSERT",
+    "template": "insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = <*>,errorMessage = ERR_DATA_INSERT",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "setDiffTotalSteps=0",
+    "template": "setDiffTotalSteps=<*>",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "startListenerChange subscribeList = [1]",
+    "template": "startListenerChange subscribeList = [<*>]",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "checkFirstSyncByType no such data in db ,type is 1 deviceCode is 0",
+    "template": "checkFirstSyncByType no such data in db ,type is <*> deviceCode is <*>",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "needAutoSync autoSyncSwitch is open",
+    "template": "needAutoSync autoSyncSwitch is open",
+    "dataset": "HealthApp"
+  },
+  {
+    "content": "IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0",
+    "template": "<*>(<*>)::listenerCallback - Thunderbolt HPD packet for route = <*> port = <*> unplug = <*>",
+    "dataset": "Mac"
+  },
+  {
+    "content": "############################## _getSysMsgList",
+    "template": "############################## _getSysMsgList",
+    "dataset": "Mac"
+  },
+  {
+    "content": "ARPT: 682834.192587: wlc_dump_aggfifo:",
+    "template": "ARPT: <*>: wlc_dump_aggfifo:",
+    "dataset": "Mac"
+  },
+  {
+    "content": "Unable to simultaneously satisfy constraints: ( \"<NSAutoresizingMaskLayoutConstraint:0x7f9d574e5370 h=-&- v=-&- V:[NSScrollView:0x7f9d64abe480]-(11)-|   (Names: '|':NSView:0x7f9d6a9cc340 )>\", \"<NSAutoresizingMaskLayoutConstraint:0x7f9d7561a270 h=-&- v=-&- V:|-(45)-[NSScrollView:0x7f9d64abe480]   (Names: '|':NSView:0x7f9d6a9cc340 )>\", \"<NSAutoresizingMaskLayoutConstraint:0x7f9d6aa2cf10 h=-&- v=--& V:[NSView:0x7f9d53160e30(0)]>\", \"<NSAutoresizingMaskLayoutConstraint:0x7f9d75652870 h=-&- v=-&- V:|-(0)-[NSView:0x7f9d6a9cc340]   (Names: '|':NSView:0x7f9d53160e30 )>\", \"<NSAutoresizingMaskLayoutConstraint:0x7f9d77ef8f50 h=-&- v=-&- V:[NSView:0x7f9d6a9cc340]-(0)-|   (Names: '|':NSView:0x7f9d53160e30 )>\" )  Will attempt to recover by breaking constraint <NSAutoresizingMaskLayoutConstraint:0x7f9d7561a270 h=-&- v=-&- V:|-(45)-[NSScrollView:0x7f9d64abe480]   (Names: '|':NSView:0x7f9d6a9cc340 )>  Set the NSUserDefault NSConstraintBasedLayoutVisualizeMutuallyExclusiveConstraints to YES to have -[NSWindow visualizeConstraints:] automatically called when this happens.  And/or, break on objc_exception_throw to catch this in the debugger.",
+    "template": "Unable to simultaneously satisfy constraints: ( \"<NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=-&- V:[NSScrollView:<*>]-(<*>)-| (Names: '|':NSView:<*> )>\", \"<NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=-&- V:|-(<*>)-[NSScrollView:<*>] (Names: '|':NSView:<*> )>\", \"<NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=--& V:[NSView:<*>(<*>)]>\", \"<NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=-&- V:|-(<*>)-[NSView:<*>] (Names: '|':NSView:<*> )>\", \"<NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=-&- V:[NSView:<*>]-(<*>)-| (Names: '|':NSView:<*> )>\" ) Will attempt to recover by breaking constraint <NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=-&- V:|-(<*>)-[NSScrollView:<*>] (Names: '|':NSView:<*> )> Set the NSUserDefault NSConstraintBasedLayoutVisualizeMutuallyExclusiveConstraints to YES to have -[NSWindow visualizeConstraints:] automatically called when this happens. And/or, break on objc_exception_throw to catch this in the debugger.",
+    "dataset": "Mac"
+  },
+  {
+    "content": "jemmytest",
+    "template": "jemmytest",
+    "dataset": "Mac"
+  },
+  {
+    "content": "CCFile::copyFile fileName is [2017-07-03_16,27,09.910337]-AirPortBrcm4360_Logs-047.txt, source path:/var/log/CoreCapture/com.apple.driver.AirPort.Brcm4360.0/DriverLogs//[2017-07-03_16,27,09.910337]-AirPortBrcm4360_Logs-047.txt, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.driver.AirPort.Brcm4360.0/[2017-07-03_16,27,10.162319]=AuthFail:sts:5_rsn:0/DriverLogs//[2017-07-03_16,27,09.910337]-AirPortBrcm4360_Logs-047.txt",
+    "template": "CCFile::copyFile fileName is [<*>-<*>-<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*>",
+    "dataset": "Mac"
+  },
+  {
+    "content": "TBT W (2): 0x0040 [x]",
+    "template": "TBT W (<*>): <*> [x]",
+    "dataset": "Mac"
+  },
+  {
+    "content": "com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 439034 seconds. Ignoring.",
+    "template": "<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds.  Ignoring.",
+    "dataset": "Mac"
+  },
+  {
+    "content": "AppleCamIn::wakeEventHandlerThread",
+    "template": "AppleCamIn::wakeEventHandlerThread",
+    "dataset": "Mac"
+  },
+  {
+    "content": "en0: BSSID changed to 5c:50:15:4c:18:13",
+    "template": "en0: BSSID changed to <*>",
+    "dataset": "Mac"
+  },
+  {
+    "content": "assertion failed: 15G1510: com.apple.telemetry + 38574 [10D2E324-788C-30CC-A749-55AE67AEC7BC]: 0x7fc235807b90",
+    "template": "assertion failed: <*> [<*>-<*>-<*>-<*>-<*>]: <*>",
+    "dataset": "Mac"
+  },
+  {
+    "content": "vm_compressor_fastwake_warmup (581519 - 591525) - starting",
+    "template": "vm_compressor_fastwake_warmup (<*> - <*>) - starting",
+    "dataset": "Mac"
+  },
+  {
+    "content": "2017/07/02 11:38:49.414 | I | VoipWrapper  | DAVEngineImpl.cpp:1400:Close             | close video chat. llFriendUIN = ******2341.",
+    "template": "<*>/<*>/<*> <*>:<*>:<*> | I | VoipWrapper  | DAVEngineImpl.cpp:<*>:Close             | close video chat. llFriendUIN = <*>.",
+    "dataset": "Mac"
+  },
+  {
+    "content": "-[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (null) UASuggestedActionType=0 (null)/(null) opts=(null) when=2017-07-01 17:08:20 +0000 confidence=1 from=(null)/(null) (UABestAppSuggestionManager.m #319)",
+    "template": "-[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (<*>) UASuggestedActionType=<*> (<*>)/(<*>) opts=(<*>) when=<*>",
+    "dataset": "Mac"
+  },
+  {
+    "content": "ASSERTION FAILED: dvcAddrRef != ((void *)0) -[DriverServices getDeviceAddress:] line: 2789",
+    "template": "ASSERTION FAILED: dvcAddrRef != ((void *)<*>) -[DriverServices getDeviceAddress:] line: <*>",
+    "dataset": "Mac"
+  },
+  {
+    "content": "after trim url = https://www.google.com/_/chrome/newtab?rlz=1C5CHFA_enHK732HK732&espv=2&ie=UTF-8",
+    "template": "after trim url = <*>",
+    "dataset": "Mac"
+  },
+  {
+    "content": "KeychainGetICDPStatus: status: off",
+    "template": "KeychainGetICDPStatus: status: off",
+    "dataset": "Mac"
+  },
+  {
+    "content": "2017-07-06 09:24:14.417 ksfetch[36728/0x7fff79824000] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x100602220> { URL: https://tools.google.com/service/update2?cup2hreq=f5e83ec64ff3fc5533a3c206134a6517e274f9e1cb53df857e15049b6e4c9f8e&cup2key=7:1721929288 }) to folder:/tmp/KSOutOfProcessFetcher.aPWod5QMh1/download",
+    "template": "<*>-<*>-<*> <*>:<*>:<*> ksfetch[<*>/<*>] [lvl=<*>] main() ksfetch fetching URL (<NSMutableURLRequest: <*> { URL: <*> }) to folder:<*>",
+    "dataset": "Mac"
+  },
+  {
+    "content": "FA||Url||taskID[2019353659] dealloc",
+    "template": "FA||Url||taskID[<*>] dealloc",
+    "dataset": "Mac"
+  },
+  {
+    "content": "AirPort: Link Up on en0",
+    "template": "AirPort: Link Up on en0",
+    "dataset": "Mac"
+  },
+  {
+    "content": "11:20:51.293 : BTLE discovered device with hash <01faa200 00000000 0000>",
+    "template": "<*> : BTLE discovered device with hash <*> <*> <*>",
+    "dataset": "Mac"
+  },
+  {
+    "content": "NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9806)",
+    "template": "NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, <*>)",
+    "dataset": "Mac"
+  },
+  {
+    "content": "in6_unlink_ifa: IPv6 address 0x77c911453a6dbcdb has no prefix",
+    "template": "<*>: IPv6 address <*> has no prefix",
+    "dataset": "Mac"
+  },
+  {
+    "content": "Wake reason: ARPT (Network)",
+    "template": "Wake reason: ARPT (Network)",
+    "dataset": "Mac"
+  },
+  {
+    "content": "<IMMacNotificationCenterManager: 0x7ff1b2e00ba0>: Updating enabled: YES   (Topics: ( \"com.apple.private.alloy.icloudpairing\", \"com.apple.private.alloy.continuity.encryption\", \"com.apple.private.alloy.continuity.activity\", \"com.apple.ess\", \"com.apple.private.ids\", \"com.apple.private.alloy.phonecontinuity\", \"com.apple.madrid\", \"com.apple.private.ac\", \"com.apple.private.alloy.phone.auth\", \"com.apple.private.alloy.keychainsync\", \"com.apple.private.alloy.fmf\", \"com.apple.private.alloy.sms\", \"com.apple.private.alloy.screensharing\", \"com.apple.private.alloy.maps\", \"com.apple.private.alloy.thumper.keys\", \"com.apple.private.alloy.continuity.tethering\" ))",
+    "template": "<IMMacNotificationCenterManager: <*>: Updating enabled: YES (Topics: (<*>))",
+    "dataset": "Mac"
+  },
+  {
+    "content": "SecOSStatusWith error:[-50] Error Domain=NSOSStatusErrorDomain Code=-50 \"query missing class name\" (paramErr: error in user parameter list) UserInfo={NSDescription=query missing class name}",
+    "template": "SecOSStatusWith error:[<*>] Error Domain=NSOSStatusErrorDomain Code=<*> \"query missing class name\" (paramErr: error in user parameter list) UserInfo={NSDescription=query missing class name}",
+    "dataset": "Mac"
+  },
+  {
+    "content": "nw_path_evaluator_start_helper_connection net_helper_path_evaluation_start failed, dumping backtrace: [x86_64] libnetcore-583.50.1 0   libsystem_network.dylib             0x00007fff92fabde9 __nw_create_backtrace_string + 123 1   libsystem_network.dylib             0x00007fff92fc289f nw_path_evaluator_start_helper_connection + 196 2   libdispatch.dylib                   0x00007fff980fa93d _dispatch_call_block_and_release + 12 3   libdispatch.dylib                   0x00007fff980ef40b _dispatch_client_callout + 8 4   libdispatch.dylib                   0x00007fff980f403b _dispatch_queue_drain + 754 5   libdispatch.dylib                   0x00007fff980fa707 _dispatch_queue_invoke + 549 6   libdispatch.dylib                   0x00007fff980f2d53 _dispatch_root_queue_drain + 538 7   libdispatch.dylib                   0x00007fff980f2b00 _dispatch_worker_thread3 + 91 8   libsystem_pthread.dylib             0x00007fff8ebc44de _pthread_wqthread + 1129 9   libsystem_pthread.dylib             0x00007fff8ebc2341 start_wqthread + 13",
+    "template": "nw_path_evaluator_start_helper_connection net_helper_path_evaluation_start failed, dumping backtrace: [<*>] libnetcore-<*> <*> libsystem_network.dylib <*> __nw_create_backtrace_string + <*> <*> libsystem_network.dylib <*> nw_path_evaluator_start_helper_connection + <*> <*> libdispatch.dylib <*> _dispatch_call_block_and_release + <*> <*> libdispatch.dylib <*> _dispatch_client_callout + <*> <*> libdispatch.dylib <*> _dispatch_queue_drain + <*> <*> libdispatch.dylib <*> _dispatch_queue_invoke + <*> <*> libdispatch.dylib <*> _dispatch_root_queue_drain + <*> <*> libdispatch.dylib <*> <*> + <*> <*> libsystem_pthread.dylib <*> _pthread_wqthread + <*> <*> libsystem_pthread.dylib <*> start_wqthread + <*>",
+    "dataset": "Mac"
+  },
+  {
+    "content": "no sleep images for WillPowerOffWithImages",
+    "template": "no sleep images for WillPowerOffWithImages",
+    "dataset": "Mac"
+  },
+  {
+    "content": "DB Path: /Users/xpc/Library/Containers/com.tencent.qq/Data/Documents/contents/916639562/QQ.db",
+    "template": "DB Path: <*>",
+    "dataset": "Mac"
+  },
+  {
+    "content": "QQ(10018) deny mach-lookup com.apple.networking.captivenetworksupport",
+    "template": "<*>(<*>) deny mach-lookup com.apple.networking.captivenetworksupport",
+    "dataset": "Mac"
+  },
+  {
+    "content": "CGXDisplayDidWakeNotification [723587602857832]: posting kCGSDisplayDidWake",
+    "template": "CGXDisplayDidWakeNotification [<*>]: posting kCGSDisplayDidWake",
+    "dataset": "Mac"
+  },
+  {
+    "content": "en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161",
+    "template": "en0: Supported channels <*>",
+    "dataset": "Mac"
+  },
+  {
+    "content": "reverse mapping checking getaddrinfo for ns.marryaldkfaczcz.com [173.234.31.186] failed - POSSIBLE BREAK-IN ATTEMPT!",
+    "template": "reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "input_userauth_request: invalid user test1 [preauth]",
+    "template": "input_userauth_request: invalid user <*> [preauth]",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "Failed password for root from 5.36.59.76 port 42393 ssh2",
+    "template": "Failed password for <*> from <*> port <*> ssh2",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ec2-52-80-34-196.cn-north-1.compute.amazonaws.com.cn",
+    "template": "pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "PAM service(sshd) ignoring max retries; 5 > 3",
+    "template": "PAM service(sshd) ignoring max retries; <*> > <*>",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "error: Received disconnect from 195.154.37.122: 3: com.jcraft.jsch.JSchException: Auth fail [preauth]",
+    "template": "error: Received disconnect from <*>: <*>: com.jcraft.jsch.JSchException: Auth fail [preauth]",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "Invalid user admin from 5.188.10.180",
+    "template": "Invalid user <*> from <*>",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "pam_unix(sshd:session): session opened for user fztu by (uid=0)",
+    "template": "pam_unix(sshd:session): session opened for user <*> by (uid=<*>)",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "Connection closed by 194.190.163.22 [preauth]",
+    "template": "Connection closed by <*> [preauth]",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "Did not receive identification string from 177.79.82.136",
+    "template": "Did not receive identification string from <*>",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "Disconnecting: Too many authentication failures for root [preauth]",
+    "template": "Disconnecting: Too many authentication failures for <*> [preauth]",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "reverse mapping checking getaddrinfo for 191-210-223-172.user.vivozap.com.br [191.210.223.172] failed - POSSIBLE BREAK-IN ATTEMPT!",
+    "template": "reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "fatal: Write failed: Connection reset by peer [preauth]",
+    "template": "fatal: Write failed: Connection reset by peer [preauth]",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "Received disconnect from 202.100.179.208: 11: Bye Bye [preauth]",
+    "template": "Received disconnect from <*>: <*>: Bye Bye [preauth]",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "Failed none for invalid user 0 from 185.190.58.151 port 55495 ssh2",
+    "template": "Failed none for invalid user <*> from <*> port <*> ssh2",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180",
+    "template": "PAM <*> more authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "Invalid user FILTER from 104.192.3.34",
+    "template": "Invalid user <*> from <*>",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "message repeated 5 times: [ Failed password for root from 106.5.5.195 port 50719 ssh2]",
+    "template": "message repeated <*> times: [ Failed password for <*> from <*> port <*>]",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "Invalid user boot from 183.62.140.253",
+    "template": "Invalid user <*> from <*>",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]",
+    "template": "error: Received disconnect from <*>: <*>: No more user authentication methods available. [preauth]",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "Accepted password for fztu from 119.137.62.142 port 49116 ssh2",
+    "template": "Accepted password for <*> from <*> port <*> ssh2",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "Failed password for invalid user webmaster from 173.234.31.186 port 38926 ssh2",
+    "template": "Failed password for invalid user <*> from <*> port <*> ssh2",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "Received disconnect from 103.207.39.16: 11: Closed due to user request. [preauth]",
+    "template": "Received disconnect from <*>: <*>: Closed due to user request. [preauth]",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "Failed password for mysql from 187.141.143.180 port 51060 ssh2",
+    "template": "Failed password for <*> from <*> port <*> ssh2",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "Received disconnect from 119.137.62.142: 11: disconnected by user",
+    "template": "Received disconnect from <*>: <*>: disconnected by user",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root",
+    "template": "pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151",
+    "template": "PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.5.5.195  user=root",
+    "template": "PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "Invalid user cheng from 202.100.179.208",
+    "template": "Invalid user <*> from <*>",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "Invalid user sandeep from 88.147.143.242",
+    "template": "Invalid user <*> from <*>",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "Invalid user utsims from 112.95.230.3",
+    "template": "Invalid user <*> from <*>",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "Invalid user 123 from 185.190.58.151",
+    "template": "Invalid user <*> from <*>",
+    "dataset": "OpenSSH"
+  },
+  {
+    "content": "proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS",
+    "template": "<*> open through proxy <*> HTTPS",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "clients4.google.com:443 close, 20249 bytes (19.7 KB) sent, 20243 bytes (19.7 KB) received, lifetime 10:34",
+    "template": "<*> close, <*> sent, <*> received, lifetime <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "csdnimg.cn:80 error : A connection request was canceled before the completion.",
+    "template": "<*> error : A connection request was canceled before the completion.",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "mtalk.google.com:5228 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 403",
+    "template": "<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "203.205.151.204:80 close, 357 bytes sent, 484 bytes received, lifetime <1 sec",
+    "template": "<*> close, <*> sent, <*> received, lifetime <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "120.204.0.139:8080 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001",
+    "template": "<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "proxy.cse.cuhk.edu.hk:5070 close, 1672 bytes (1.63 KB) sent, 771 bytes received, lifetime 00:05",
+    "template": "<*> close, <*> sent, <*> received, lifetime <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "video-hkg3-2.xx.fbcdn.net:443 close, 58373 bytes (57.0 KB) sent, 8896991 bytes (8.48 MB) received, lifetime 02:25",
+    "template": "<*> close, <*> sent, <*> received, lifetime <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "client-cf.dropbox.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061",
+    "template": "<*> error : Could not connect to proxy <*> - connection attempt failed with error <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "fs-conn-doctor.qq.com:443 close, 184 bytes sent, 134 bytes received, lifetime 00:01",
+    "template": "<*> close, <*> sent, <*> received, lifetime <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "oimageb7.ydstatic.com:80 close, 357 bytes sent, 24275 bytes (23.7 KB) received, lifetime 00:30",
+    "template": "<*> close, <*> sent, <*> received, lifetime <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "183.62.156.108:22 open through proxy socks.cse.cuhk.edu.hk:5070 SOCKS5",
+    "template": "<*> open through proxy <*> SOCKS5",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "googleads.g.doubleclick.net:80 close, 0 bytes sent, 0 bytes received, lifetime 00:12",
+    "template": "<*> close, <*> sent, <*> received, lifetime <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "183.62.156.108:22 close, 89652 bytes (87.5 KB) sent, 599249 bytes (585 KB) received, lifetime 37:51",
+    "template": "<*> close, <*> sent, <*> received, lifetime <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "mail-attachment.googleusercontent.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS",
+    "template": "<*> open through proxy <*> HTTPS",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "86.99.222.235:443 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy closed the connection unexpectedly.",
+    "template": "<*> error : Could not connect through proxy <*> - Proxy closed the connection unexpectedly.",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "avatars.githubusercontent.com:443 close, 620 bytes sent, 33814 bytes (33.0 KB) received, lifetime 01:40",
+    "template": "<*> close, <*> sent, <*> received, lifetime <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "BAYMSGR2012806.gateway.messenger.live.com:443 close, 13155 bytes (12.8 KB) sent, 21737 bytes (21.2 KB) received, lifetime 00:35",
+    "template": "<*> close, <*> sent, <*> received, lifetime <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "tc.dl.pinyin.sogoucdn.com:80 close, 158 bytes sent, 33899 bytes (33.1 KB) received, lifetime <1 sec",
+    "template": "<*> close, <*> sent, <*> received, lifetime <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "long.open.weixin.qq.com:443 close, 1910 bytes (1.86 KB) sent, 276 bytes received, lifetime 00:27",
+    "template": "<*> close, <*> sent, <*> received, lifetime <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "upload.3367.com:80 close, 2331 bytes (2.27 KB) sent, 440133 bytes (429 KB) received, lifetime 01:01",
+    "template": "<*> close, <*> sent, <*> received, lifetime <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "impservice.dictapp.youdao.com:80 close, 666 bytes sent, 709 bytes received, lifetime 00:10",
+    "template": "<*> close, <*> sent, <*> received, lifetime <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "sb.scorecardresearch.com:443 close, 3818 bytes (3.72 KB) sent, 6276 bytes (6.12 KB) received, lifetime 11:02",
+    "template": "<*> close, <*> sent, <*> received, lifetime <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "dslb.cdn.krcom.cn:80 close, 446 bytes sent, 195160 bytes (190 KB) received, lifetime 00:59",
+    "template": "<*> close, <*> sent, <*> received, lifetime <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "r6---sn-i3b7knl6.googlevideo.com:443 close, 733 bytes sent, 151 bytes received, lifetime 00:15",
+    "template": "<*> close, <*> sent, <*> received, lifetime <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "2052.flash2-http.qq.com:80 close, 466 bytes sent, 125682 bytes (122 KB) received, lifetime <1 sec",
+    "template": "<*> close, <*> sent, <*> received, lifetime <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "f-log-extension.grammarly.io:443 close, 643 bytes sent, 3276 bytes (3.19 KB) received, lifetime 00:19",
+    "template": "<*> close, <*> sent, <*> received, lifetime <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "91.190.216.125:443 close, 5 bytes sent, 0 bytes received, lifetime 00:04",
+    "template": "<*> close, <*> sent, <*> received, lifetime <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "c.baidu.com:80 close, 1052 bytes (1.02 KB) sent, 113 bytes received, lifetime <1 sec",
+    "template": "<*> close, <*> sent, <*> received, lifetime <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "f-log-extension.grammarly.io:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS",
+    "template": "<*> open through proxy <*> HTTPS",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "www.googletagservices.com:443 close, 1257 bytes (1.22 KB) sent, 540 bytes received, lifetime 04:00",
+    "template": "<*> close, <*> sent, <*> received, lifetime <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "d3cv4a9a9wh0bt.cloudfront.net:443 close, 820 bytes sent, 5619 bytes (5.48 KB) received, lifetime 02:00",
+    "template": "<*> close, <*> sent, <*> received, lifetime <*>",
+    "dataset": "Proxifier"
+  },
+  {
+    "content": "session closed for user root",
+    "template": "session closed for user <*>",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "Warning: we failed to resolve data source name dn910 dn911 dn912 dn913 dn914 dn915 dn916 dn917 dn918 dn919 dn920 dn921 dn922 dn923 dn924 dn925 dn926 dn927 dn928 dn929 dn930 dn931 dn932 dn933 dn934 dn935 dn936 dn937 dn938 dn939 dn940 dn941 dn942 dn943 dn944 dn945 dn946 dn947 dn948 dn949 dn950 dn951 dn952 dn953 dn954 dn955 dn956 dn957 dn958 dn959 dn960 dn961 dn962 dn963 dn964 dn965 dn966 dn967 dn968 dn969 dn970 dn971 dn972 dn973 dn974 dn975 dn976 dn977 dn978 dn979 dn980 dn981 dn982 dn983 dn984 dn985 dn986 dn987 dn988 dn989 dn990 dn991 dn992 dn993 dn994 dn995 dn996 dn997 dn998 dn999 dn1000 dn1001 dn1002 dn1003 dn1004 dn1005 dn1006 dn1007 dn1008 dn1009 dn1010 dn1011 dn1012 dn1013 dn1014 dn1015 dn1016 dn1017 dn1018 dn1019 dn1020 dn1021 dn1022 dn1023 dn1024",
+    "template": "Warning: we failed to resolve data source name <*>",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "v2.0 (20020519)",
+    "template": "V<*> (<*>)",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "[ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************",
+    "template": "[ib_sm_sweep.c:<*>]: ********************** NEW SWEEP ********************",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "jA9J1Wd7019391: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1624553, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]",
+    "template": "<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>]",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "PCI Interrupt Routing Table [\\_SB_.PCI0.PBHI.PXB2._PRT]",
+    "template": "PCI Interrupt Routing Table [<*>]",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1",
+    "template": "DHCPDISCOVER from <*> via eth1",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "... autorun DONE.",
+    "template": "... autorun DONE.",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "data_thread() got not answer from any [Thunderbird_A1] datasource",
+    "template": "data_thread() got not answer from any [Thunderbird_<*>] datasource",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "(root) CMD (/projects/tbird/temps/get_temps a)",
+    "template": "(<*>) CMD (<*> <*>)",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "MCFG (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd854",
+    "template": "<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*>",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "root=LABEL=/ initrd=/x86_64/initrd-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr-admin console=tty0 console=ttyS0,19200 fastboot BOOT_IMAGE=/x86_64/vmlinuz-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr",
+    "template": "<*>=LABEL=/ initrd=<*> console=<*> console=<*>,<*> fastboot BOOT_IMAGE=<*>",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "md driver 0.90.0 MAX_MD_DEVS=256, MD_SB_DISKS=27",
+    "template": "md driver <*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*>",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "removing time",
+    "template": "removing <*>",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "Unknown cmd fd(5) cmd(80081272){00} arg(ffffda44) on /dev/sda",
+    "template": "Unknown cmd fd(<*>) cmd(<*>){<*>} arg(<*>) on <*>",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "RRD_update (/var/lib/ganglia/rrds/C Nodes/cn776/pkts_out.rrd): illegal attempt to update using time 1131559854 when last update time is 1131559854 (minimum one second step)",
+    "template": "RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step)",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "eth0: e1000_watchdog: NIC Link is Up 1000 Mbps Full Duplex",
+    "template": "eth0: <*>: NIC Link is Up <*> Mbps Full Duplex",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "IOAPIC (id[0x09] address[0xfec80000] gsi_base[32])",
+    "template": "IOAPIC (id[<*>] address[<*>] gsi_base[<*>])",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "synchronized to LOCAL(0), stratum 10",
+    "template": "synchronized to <*> stratum <*>",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "sda1 sda2 sda3 sda4",
+    "template": "<*> <*> <*> <*>",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "Direct-Access ANSI SCSI revision: 02",
+    "template": "Direct-Access ANSI SCSI revision: <*>",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "#39# (Release Date: Mon Sep 27 22:15:07 EDT 2004)",
+    "template": "<*> (Release Date: <*> <*>)",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "i8042 AUX port at 0x60,0x64 irq 12",
+    "template": "<*> AUX port at <*>,<*> irq <*>",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "Reading included configuration file: /etc/xinetd.d/ktalk [file=/etc/xinetd.d/ktalk] [line=13]",
+    "template": "Reading included configuration file: <*> [file=<*>] [line=<*>]",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "RNG not detected",
+    "template": "RNG not detected",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "synchronized to #3#, stratum 1",
+    "template": "synchronized to <*> stratum <*>",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)",
+    "template": "INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl)",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "sys_ia32.c,v 1.32 2002/03/24 13:02:28 ak Exp &dollar;",
+    "template": "<*> <*> <*> ak Exp &dollar;",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "CentOS-4 (Kernel Module GPG key)",
+    "template": "CentOS-<*> (Kernel Module GPG key)",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "START: tftp pid=16563 from=10.100.4.251",
+    "template": "START: tftp pid=<*> from=<*>",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "colour VGA+ 80x25",
+    "template": "colour VGA+ <*>",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "Now running on #29#'s privileges.",
+    "template": "Now running on <*>'s privileges.",
+    "dataset": "Thunderbird"
+  },
+  {
+    "content": "Loaded Servicing Stack v6.1.7601.23505 with Core: C:\\Windows\\winsxs\\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_6.1.7601.23505_none_681aa442f6fed7f0\\cbscore.dll",
+    "template": "Loaded Servicing Stack <*> with Core: <*>",
+    "dataset": "Windows"
+  },
+  {
+    "content": "0000000f@2016/9/27:20:40:54.786 CSI perf trace:",
+    "template": "<*>@<*> CSI perf trace:",
+    "dataset": "Windows"
+  },
+  {
+    "content": "Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]",
+    "template": "Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]",
+    "dataset": "Windows"
+  },
+  {
+    "content": "Ending TrustedInstaller initialization.",
+    "template": "Ending TrustedInstaller initialization.",
+    "dataset": "Windows"
+  },
+  {
+    "content": "Reboot mark refs: 0",
+    "template": "Reboot mark refs: <*>",
+    "dataset": "Windows"
+  },
+  {
+    "content": "Unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SYSTEM",
+    "template": "Unloading offline registry hive: <*>",
+    "dataset": "Windows"
+  },
+  {
+    "content": "Scavenge: Starts",
+    "template": "Scavenge: Starts",
+    "dataset": "Windows"
+  },
+  {
+    "content": "00000006 Created NT transaction (seq 1) result 0x00000000, handle @0x218",
+    "template": "<*> Created NT transaction (seq <*>) result <*>, handle @<*>",
+    "dataset": "Windows"
+  },
+  {
+    "content": "NonStart: Success, startup processing not required as expected.",
+    "template": "NonStart: Success, startup processing not required as expected.",
+    "dataset": "Windows"
+  },
+  {
+    "content": "00000001@2016/9/28:16:00:46.160 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7fed875eb5d @0x7fee5c39b6d @0x7fee5c0358f @0xffeee97c @0xffeed799 @0xffeedb2f)",
+    "template": "<*>@<*> WcpInitialize (wcp.dll version <*>) called (stack @<*>)",
+    "dataset": "Windows"
+  },
+  {
+    "content": "SQM: Queued 0 file(s) for upload with pattern: C:\\Windows\\servicing\\sqm\\*_all.sqm, flags: 0x6",
+    "template": "SQM: Queued <*> file(s) for upload with pattern: <*>, flags: <*>",
+    "dataset": "Windows"
+  },
+  {
+    "content": "Read out cached package applicability for package: Package_for_KB3004375~31bf3856ad364e35~amd64~~6.1.3.1, ApplicableState: 112, CurrentState:112",
+    "template": "Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>",
+    "dataset": "Windows"
+  },
+  {
+    "content": "Session: 30546354_3225556672 initialized by client WindowsUpdateAgent.",
+    "template": "Session: <*> initialized by client WindowsUpdateAgent.",
+    "dataset": "Windows"
+  },
+  {
+    "content": "Warning: Unrecognized packageExtended attribute.",
+    "template": "Warning: Unrecognized packageExtended attribute.",
+    "dataset": "Windows"
+  },
+  {
+    "content": "SQM: Cleaning up report files older than 10 days.",
+    "template": "SQM: Cleaning up report files older than <*> days.",
+    "dataset": "Windows"
+  },
+  {
+    "content": "Disabling manifest caching, because the image is not writeable.",
+    "template": "Disabling manifest caching, because the image is not writeable.",
+    "dataset": "Windows"
+  },
+  {
+    "content": "0000000b Store coherency cookie matches last scavenge cookie, skipping scavenge.",
+    "template": "<*> Store coherency cookie matches last scavenge cookie, skipping scavenge.",
+    "dataset": "Windows"
+  },
+  {
+    "content": "0000000a Performing 1 operations; 1 are not lock/unlock and follow:",
+    "template": "<*> Performing <*> operations; <*> are not lock/unlock and follow:",
+    "dataset": "Windows"
+  },
+  {
+    "content": "Idle processing thread terminated normally",
+    "template": "Idle processing thread terminated normally",
+    "dataset": "Windows"
+  },
+  {
+    "content": "0000000c ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching=FALSE applyflags=7",
+    "template": "<*> ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching=<*> applyflags=<*>",
+    "dataset": "Windows"
+  },
+  {
+    "content": "0000000b CSI Store 3065408 (0x00000000002ec640) initialized",
+    "template": "<*> CSI Store <*> (<*>) initialized",
+    "dataset": "Windows"
+  },
+  {
+    "content": "No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending.",
+    "template": "No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending.",
+    "dataset": "Windows"
+  },
+  {
+    "content": "00000009@2016/9/27:20:40:53.744 CSI Transaction @0x47e9e0 initialized for deployment engine {d16d444c-56d8-11d5-882d-0080c847b195} with flags 00000002 and client id [10]\"TI6.0_0:0/\"",
+    "template": "<*>@<*> CSI Transaction @<*> initialized for deployment engine {<*>} with flags <*> and client id [<*>]\"<*>/\"",
+    "dataset": "Windows"
+  },
+  {
+    "content": "00000004 IAdvancedInstallerAwareStore_ResolvePendingTransactions (call 1) (flags = 00000004, progress = NULL, phase = 0, pdwDisposition = @0x116fa70",
+    "template": "<*> IAdvancedInstallerAwareStore_ResolvePendingTransactions (call <*>) (flags = <*>, progress = <*>, phase = <*>, pdwDisposition = @<*>",
+    "dataset": "Windows"
+  },
+  {
+    "content": "SQM: Initializing online with Windows opt-in: False",
+    "template": "SQM: Initializing online with Windows opt-in: <*>",
+    "dataset": "Windows"
+  },
+  {
+    "content": "00000008@2016/9/28:16:00:46.635 PopulateComponentFamiliesKey - Begin",
+    "template": "<*>@<*> PopulateComponentFamiliesKey - Begin",
+    "dataset": "Windows"
+  },
+  {
+    "content": "Scavenge: Completed, disposition: 0X1",
+    "template": "Scavenge: Completed, disposition: <*>",
+    "dataset": "Windows"
+  },
+  {
+    "content": "Offline image is: read-only",
+    "template": "Offline image is: read-only",
+    "dataset": "Windows"
+  },
+  {
+    "content": "Loading offline registry hive: schema.dat, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/system32/smi/store/Machine/schema.dat' from path '\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy2\\Windows\\system32\\smi\\store\\Machine\\schema.dat'.",
+    "template": "Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'.",
+    "dataset": "Windows"
+  },
+  {
+    "content": "SQM: Requesting upload of all unsent reports.",
+    "template": "SQM: Requesting upload of all unsent reports.",
+    "dataset": "Windows"
+  },
+  {
+    "content": "SQM: Warning: Failed to upload all unsent reports. [HRESULT = 0x80004005 - E_FAIL]",
+    "template": "SQM: Warning: Failed to upload all unsent reports. [HRESULT = <*> - E_FAIL]",
+    "dataset": "Windows"
+  },
+  {
+    "content": "0000000d Creating NT transaction (seq 2), objectname [6]\"(null)\"",
+    "template": "<*> Creating NT transaction (seq <*>), objectname [<*>]\"(<*>)\"",
+    "dataset": "Windows"
+  }
+]

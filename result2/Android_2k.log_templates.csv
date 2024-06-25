@@ -1,0 +1,155 @@
+EventId,EventTemplate,Occurrences
+0,"printFreezingDisplayLogsopening app wtoken = AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*> t761}}}, allDrawn= <*>, startingDisplayed = <*>, startingMoved = <*>, isRelaunching = false",1
+1,"acquire lock=<*>, flags=<*>, tag=""<*>"", name=<*>, ws=<*>, uid=<*>, pid=<*>",26
+2,"ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*>,adj=<*>userId=<*>",199
+3,Skipping AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*> t761}}} -- going to hide,4
+4,visible is <*>,5
+5,mVisiblity.getValue is <*>,5
+6,"updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>",65
+7,updateDimmedActivatedHideSensitive overlap:<*>,65
+8,getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output,81
+9,"setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)",200
+10,cancelAutohide,15
+11,"notifyUiVisibilityChanged:vis=<*>, SystemUiVisibility=<*>",19
+12,Destroying surface Surface(name=<*> called by com.android.server.wm.WindowStateAnimator.destroyDeferredSurfaceLocked:<*> com.android.server.wm.WindowManagerService.performDeferredDestroyWindow:<*> com.android.server.wm.Session.performDeferredDestroy:<*> android.view.IWindowSession$Stub.onTransact:<*> com.android.server.wm.Session.onTransact:<*> android.os.Binder.execTransact:<*> <bottom of call stack> <bottom of call stack>,1
+13,Destroying surface Surface(name=<*>) called by <*>,24
+14,"release:lock=<*>, flg=<*>, tag=""<*>"", name=<*>, ws=<*>, uid=<*>, pid=<*>",26
+15,"userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>",69
+16,"orientation change is complete, call stopFreezingDisplayLocked",1
+17,Screen frozen for <*>ms due to Window{<*> u0 <*>},1
+18,startAnimation begin,1
+19,startAnimation end,1
+20,remove(PendingIntent{<*>: PendingIntentRecord{<*>}}) changed bounds; rebatching,2
+21,"rotationForOrientationLw(orient=<*>, last=<*>); user=<*> USER_ROTATION_LOCKED",3
+22,"Application requested orientation <*>, got rotation <*> which has compatible metrics",3
+23,shouldBlockLocation running ...,37
+24,shouldBlockLocation ret:<*>,37
+25,getNeighboringCellInfo calling app is <*>,5
+26,"Releasing suspend blocker ""PowerManagerService.WakeLocks"".",33
+27,HBM brightnessIn =<*>,85
+28,HBM brightnessOut =<*>,85
+29,"Animating brightness: target=<*>, rate=<*>",85
+30,suspendAutohide,23
+31,interceptKeyTq keycode=<*> interactive=<*> keyguardActive=<*> policyFlags=<*> down true canceled false,7
+32,"interceptKeyBeforeQueueing: key <*>, result : <*>",14
+33,resumeSuspendedAutohide,10
+34,interceptKeyTq keycode=<*> interactive=<*> keyguardActive=<*> policyFlags=<*> down false canceled false,7
+35,querySoundEffectsEnabled...,17
+36,"Acquiring suspend blocker ""PowerManagerService.WakeLocks"".",33
+37,Bad activity token: <*>,1
+38,java.lang.ClassCastException: android.os.BinderProxy cannot be cast to <*>,1
+39,"onTouchEvent::<*>, x=<*>, y=<*>",2
+40,schedulePeek,1
+41,getRingtonePlayer...,2
+42,disable: < expand <*>* alerts <*>_<*>* back home recent clock navigationbar search quick_settings >,6
+43,"updateLightsLocked,mInCall =<*>,mScreenOn = true,ledNotification == <*>?true",4
+44,"updateLightsLocked,turn off notificationLight",6
+45,"overlapAmount:<*>, previousNotificationEnd:<*>, newYTranslation:<*>, location:<*>, i:<*>, getTopPadding:<*>, getLocationOnScreen():<*>",13
+46,"state.clipTopAmount:<*>, i:<*>",13
+47,onExpandingStarted,2
+48,onTrackingStarted,1
+49,cancelPeek: <*>,20
+50,"flingToHeight: vel=<*>, expand=<*>, target=<*>, collapseSpeedUpFactor=<*>, expandBecauseOfFalsing=<*>",2
+51,onTrackingStopped: <*>,1
+52,onExpandingFinished,2
+53,Sending non-protected broadcast <*> from system <*>:com.android.systemui/u<*> pkg <*>,2
+54,logNotificationVisibilityChanges runInThread start,6
+55,onNotificationVisibilityChanged called,6
+56,logNotificationVisibilityChanges runInThread over,6
+57,isSimPinSecure mSimDatas is <*> or empty,1
+58,registerCallback not in UI.,3
+59,android.util.AndroidRuntimeException: Must execute in UI,3
+60,*** register callback for <*>,1
+61,*** unregister callback for <*>,2
+62,[PhoneIntfMgr] getDataEnabled: subId=<*> phoneId=<*>,1
+63,[PhoneIntfMgr] getDataEnabled: subId=<*> retVal=<*>,1
+64,"onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>, y[<*>]=<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=<*>",2
+65,"onInterceptTouchEvent MotionEvent { action=ACTION_UP, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>, y[<*>]=<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=<*>",2
+66,playSoundEffect  effectType: <*>,10
+67,"animateCollapsePanels:flags=<*>, force=<*>, delayed=<*>, mExpandedVisible=<*>",8
+68,START u0 {act=<*> flg=<*> cmp=<*> (has extras)} from uid <*> on display <*>,1
+69,"ActivityRecord info: ActivityInfo{<*>}, euid: <*>",4
+70,onNotificationClick called,2
+71,"cancelNotification,index:<*>",23
+72,"cancelNotification,cancelNotificationLocked,callingUid = <*>,callingPid = <*>",2
+73,"cancelNotificationLocked called,tell the app,reason = <*>",2
+74,cancelNotificationLocked:<*>,4
+75,applyOptionsLocked: Unknown animationType=<*>,2
+76,"Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[<*>], rot:[<*>]",4
+77,removeNotification:<*>|<*>|<*>|<*>|<*>,2
+78,"updateNotificationShade: total=<*>, active=<*>",13
+79,The change in focus caused us to need to do a layout begin,6
+80,The change in focus caused us to need to do a layout end,6
+81,setLightsOn(<*>),181
+82,removeNotificationChildren,12
+83,"Skipping, withExcluded: <*>, tr.intent:Intent { flg=<*> cmp=<*> bnds=[<*>] }",14
+84,"Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) }",14
+85,"Skipping, withExcluded: <*>, tr.intent:Intent { flg=<*> cmp=<*> (has extras) }",21
+86,"Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> dat=<*> flg=<*> cmp=<*> (has extras) }",7
+87,"Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> dat=<*> typ=<*> flg=<*> cmp=<*> (has extras) }",7
+88,"getRecentTasks: num=<*>,flags=<*>,totalTasks=<*>",14
+89,getRecentTasks: topActivity=ComponentInfo{<*>},14
+90,"cancelNotificationWithTag pid <*>,uid = <*>,tag = <*>,pkg =<*>,id =<*>",20
+91,makeExpandedInvisible: mExpandedVisible=<*>,4
+92,closeQs,12
+93,instantCollapse,9
+94,getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output,37
+95,isMusicActive...,12
+96,"Start dump, calling from : pid=<*>, uid=<*>",1
+97,setWiredDeviceConnectionState type: <*> state: <*>,2
+98,"ActivityManagerService,attachApplication,callingPid = <*>",4
+99,isBluetoothA2dpOn...,1
+100,isBluetoothScoOn...,1
+101,getLastAudibleStreamVolume treamType: <*>,9
+102,getDevicesForStream streamType: <*>,2
+103,cleanUpApplicationRecord -- <*>,6
+104,"cleanUpApplicationRecordLocked, pid: <*>, restart: false",6
+105,"cleanUpApplicationRecordLocked, reset pid: <*>, euid: <*>",6
+106,stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=<*>,6
+107,stopWifiDisplayScanLocked mWifiDisplayScanRequestCount=<*>,6
+108,getMode...,1
+109,setSpeakerphoneOn on:<*>,2
+110,"sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*>}}},repeatInterval = <*>,listenerTag =<*>",5
+111,Received TIME_TICK alarm; rescheduling,3
+112,scheduleTimeTickEvent triggerAtTime = <*>,3
+113,received broadcast <*>,4
+114,handleTimeUpdate,3
+115,Killing <*> (adj <*>): empty for <*>,1
+116,Unable to start service Intent { act=<*> cmp=<*> } U=<*>: not found,1
+117,unregisterAudioFocusListener...,1
+118,abandonAudioFocus,1
+119,"[HSM] stayAwake false uid: <*>, pid: <*>",1
+120,Pid:<*> MediaPlayer destructor,1
+121,Process <*> (pid <*>) has died,1
+122,Scheduling restart of crashed service <*> in <*>ms,1
+123,"new Process app=<*>, name: <*>, euid: <*>",1
+124,Start proc <*> for service <*>,1
+125,enqueueNotificationInternal: pkg=<*> id=<*> notification=Notification(pri=<*> contentView=<*> vibrate=[<*>] sound=<*> tick defaults=<*> flags=<*> color=<*> vis=<*>,1
+126,enqueueNotificationInternal: n.getKey = <*>|<*>|<*>|<*>|<*>,2
+127,getRingerMode...,3
+128,"updateLightsLocked,mInCall =<*>,mScreenOn = true,ledNotification == <*>?false",2
+129,addNotification key=<*>|<*>|<*>|<*>|<*>,2
+130,mHeadsUpExistenceChangedRunnable,4
+131,Marking notification as seen <*>|<*>|<*>|<*>|<*>,2
+132,onNotificationExpansionChanged called,2
+133,START u0 {act=<*> cat=[<*>] flg=<*> cmp=<*> bnds=[<*>} from uid <*> on display <*>,2
+134,"ACTIVITY check resid: <*>, size=<*>",2
+135,getAllCellInfo is blocked by permission manager . callingPackage = <*>,3
+136,getCellLocation is blocked by permission manager uid:<*> pid:<*>,1
+137,isWiredHeadsetOn...,1
+138,"setDataSource(<*>, <*>, <*>)",1
+139,getStreamVolume treamType: <*>,1
+140,"updateIsPoweredLocked: wasPowered=<*>, mIsPowered=<*>, oldPlugType=<*>, mPlugType=<*>, mBatteryLevel=<*>",1
+141,ACTION_BATTERY_CHANGED AMP: <*>; Volt: <*>,1
+142,updateChargingLocked: charging=<*>,1
+143,"onReceive, action:<*>",1
+144,ACTION_BATTERY_CHANGED pluggedType: <*>,1
+145,ApStaDisabledState what=<*>,1
+146,DefaultState what=<*>,1
+147,battery changed pluggedType: <*>,1
+148,RefreshBatteryInfo isBatteryLow: <*>,2
+149,ChargingSpeed Wattage: <*> ST: <*> --> <*>,1
+150,handleBatteryUpdate,1
+151,enqueueNotificationInternal: pkg=<*> id=<*> notification=Notification(pri=<*> contentView=<*> vibrate=[] sound=null tick defaults=<*> flags=<*> color=<*> category=<*> vis=<*>,1
+152,START u0 {flg=<*> cmp=<*> (has extras)} from uid <*> on display <*>,1
+153,startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { flg=<*> cmp=<*> (has extras) },1
