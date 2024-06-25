@@ -1,0 +1,48 @@
+EventId,EventTemplate,Occurrences
+0,Component State Change: Component <*> is in the unavailable state (HWID=<*>),12
+1,clusterAddMember (command <*>),2
+2,risBoot (command <*>),1
+3,bootGenvmunix (command <*>),2
+4,boot (command <*>),67
+5,wait (command <*>),66
+6,halt (command <*>),3
+7,Command has completed successfully,10
+8,Targeting domains:node-<*> and nodes:node-[<*>] child of command <*>,5
+9,Targeting domains:node-<*> and nodes:node-[<*>],2
+10,Targeting domains:node-<*> and nodes:node-<*>,2
+11,psu failure\ ambient=<*>,5
+12,Temperature (41C) exceeds warning threshold,2
+13,ClusterFileSystem: There is no server for ServerFileSystem domain <*>,32
+14,NIFF: node node-<*> detected a failed network connection on network <*> via interface alt0,2
+15,ServerFileSystem: An ServerFileSystem domain panic has occurred on <*>,1
+16,Fan speeds ( <*> <*> <*> **** <*> <*> ),79
+17,Fan speeds ( <*> <*> <*> <*> <*> <*> ),11
+18,Command has been aborted,1
+19,power/control problem,1
+20,Link error,13
+21,Link in reset,9
+22,Link ok,13
+23,Link error on broadcast tree Interconnect-<*>:<*>:<*>:<*>,4
+24,ServerFileSystem: ServerFileSystem domain <*> is full,12
+25,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>,36
+26,running,162
+27,blocked,15
+28,not responding,60
+29,configured out,91
+30,inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok>,2
+31,active,5
+32,not-responding,1
+33,inconsistent nodesets <*> <ok> node-<*> <*> <ok> node-7 <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-1<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok>,1
+34,starting,1
+35,closing,1
+36,inconsistent nodesets <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok>,1
+37,normal,206
+38,warning,205
+39,ambient=<*>,292
+40,critical,20
+41,Linkerror event interval expired,394
+42,risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed>,1
+43,boot (command <*>) Error: HALT asserted\ cannot continue,1
+44,Failed subcommands <*>,1
+45,link errors remain current,56
+46,NIFF: node node-<*> has detected an available network connection on network <*> via interface <*>,91

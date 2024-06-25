@@ -1,0 +1,51 @@
+EventId,EventTemplate,Occurrences
+0,Notification time out: <*>,37
+1,Received connection request <*>:<*>,299
+2,Send worker leaving thread,262
+3,Interrupted while waiting for message on queue,314
+4,"Connection broken for id <*>, my id = <*>, error =",291
+5,Interrupting SendWorker,266
+6,Closed socket connection for client <*> which had sessionid <*>,44
+7,caught end of stream exception,37
+8,Client attempting to renew session <*> at <*>:<*>,3
+9,Client attempting to establish new session at <*>:<*>,41
+10,Established session <*> with negotiated timeout <*> for client <*>:<*>,50
+11,Accepted socket connection from <*>:<*>,48
+12,Unexpected Exception:,1
+13,Connection request from old client <*>; will be dropped if server is in r-o mode,39
+14,Server environment:<*>,11
+15,Cannot open channel to <*> at election address <*>,86
+16,Processed session termination for sessionid: <*>,47
+17,Expiring session <*>,40
+18,******* GOODBYE <*>:<*> ********,19
+19,LOOKING,4
+20,My election bind port: <*>,1
+21,"Have smaller server identifier, so dropping the connection: (<*>, <*>)",1
+22,FOLLOWING,2
+23,"New election. My id = <*>, proposed zxid=<*>",1
+24,FOLLOWING - LEADER ELECTION TOOK - <*>,2
+25,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LEADING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)",1
+26,autopurge.snapRetainCount set to <*>,1
+27,Revalidating client: <*>,3
+28,Closed socket connection for client <*> (no session established for client),4
+29,Exception causing close of session <*> due to java.io.IOException: ZooKeeperServer not running,3
+30,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)",5
+31,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)",1
+32,tickTime set to <*>,1
+33,Unexpected exception causing shutdown while sock still open,12
+34,Got user-level KeeperException when processing <*> type:create <*> <*> <*> reqpath:n/a Error Path:/home/curi/.zookeeper Error:KeeperErrorCode = NodeExists for /home/curi/.zookeeper,1
+35,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)",3
+36,Starting quorum peer,1
+37,Snapshotting: <*> to <*>,2
+38,autopurge.purgeInterval set to <*>,3
+39,Follower sid: <*> : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@<*>,1
+40,maxSessionTimeout set to <*>,1
+41,Have quorum of supporters; starting up and setting last processed zxid: <*>,1
+42,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)",1
+43,shutdown of request processor complete,1
+44,First is <*>,1
+45,Reading snapshot <*>,1
+46,Sending DIFF,1
+47,Getting a snapshot from leader,2
+48,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)",1
+49,minSessionTimeout set to <*>,2

@@ -1,0 +1,157 @@
+EventId,EventTemplate,Occurrences
+0,session closed for user <*>,24
+1,session opened for user <*> by (uid=<*>),19
+2,(<*>) CMD (<*> <*>),19
+3,data_thread() got not answer from any [Thunderbird_<*>] datasource,819
+4,synchronized to <*> stratum <*>,568
+5,[<*>]: ********************** NEW SWEEP ********************,62
+6,[<*>]: No topology change,62
+7,[<*>]: No configuration change required,62
+8,Local disconnected: Connection closed.,3
+9,connection lost: 'Connection closed.',3
+10,unable to qualify my own domain name (<*>) -- using short name,10
+11,"<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@localhost",10
+12,"<*>: to=<*>, ctladdr=<*> (<*>/<*>), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>]",10
+13,DHCPDISCOVER from <*> via eth1,5
+14,DHCPOFFER on <*> to <*> via eth1,5
+15,DHCPDISCOVER from <*> via eth1: network <*>: no free leases,15
+16,DHCPACK on <*> to <*> via eth1,3
+17,DHCPREQUEST for <*> (<*>.<*>.<*>.<*>) from <*> via eth1,3
+18,START: tftp pid=<*> from=<*>,1
+19,DHCPREQUEST for <*> (<*>.<*>.<*>.<*>) from <*> via eth1: unknown lease <*>,9
+20,RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step),11
+21,kernel time sync disabled <*>,1
+22,time reset +<*>.<*> s,1
+23,Received SNMP packet(s) from <*>,1
+24,kernel time sync enabled <*>,1
+25,My unqualified host name (<*>) unknown; sleeping for retry,5
+26,CentOS-<*> (Kernel Module GPG key),1
+27,(supports S0 S4 S5),1
+28,DSDT (v001 DELL PE BKC <*> MSFT <*>) @ <*>,1
+29,FADT (v001 DELL PE BKC <*> MSFT <*>) @ <*>,1
+30,HPET (v001 DELL PE BKC <*> MSFT <*>) @ <*>,1
+31,HPET id: <*> base: <*>,1
+32,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl),1
+33,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> high level),1
+34,IOAPIC (id[<*>] address[<*>] gsi_base[<*>]),3
+35,IRQ<*> used by override.,3
+36,Interpreter enabled,1
+37,LAPIC (acpi_id[<*>] lapic_id[<*>] enabled),4
+38,LAPIC_NMI (acpi_id[<*>] high edge lint[<*>]),4
+39,Local APIC address <*>,1
+40,MADT (v001 DELL PE BKC <*> MSFT <*>) @ <*>,1
+41,MCFG (v001 DELL PE BKC <*> MSFT <*>) @ <*>,1
+42,PCI Interrupt Link [LNKA] (IRQs <*> <*>) *<*>,1
+43,PCI Interrupt Link [LNKB] (IRQs <*> <*>),1
+44,PCI Interrupt Link [LNKC] (IRQs <*> <*>) *<*>,1
+45,"PCI Interrupt Link [LNKD] (IRQs <*> <*>) <*>, disabled.",1
+46,"PCI Interrupt Link [LNKE] (IRQs <*> <*>) <*>, disabled.",1
+47,"PCI Interrupt Link [LNKF] (IRQs <*> <*>) <*>, disabled.",1
+48,"PCI Interrupt Link [LNKG] (IRQs <*> <*>) <*>, disabled.",1
+49,"PCI Interrupt Link [LNKH] (IRQs <*> <*>) <*>, disabled.",1
+50,PCI Interrupt Routing Table [<*>],10
+51,PCI Root Bridge [<*>] (<*>),1
+52,"PCI interrupt <*> -> GSI <*> (level, low) -> IRQ <*>",11
+53,Power Button (FF) [PWRF],1
+54,Processor [<*>] (supports C1),4
+55,RSDP (v000 DELL ) @ <*>,1
+56,RSDT (v001 DELL PE BKC <*> MSFT <*>) @ <*>,1
+57,SPCR (v001 DELL PE BKC <*> MSFT <*>) @ <*>,1
+58,Subsystem revision <*>,1
+59,Using IOAPIC for interrupt routing,1
+60,Intel(R) Xeon(TM) CPU <*> stepping <*>,1
+61,L2 cache: <*>,5
+62,Physical Processor ID: <*>,5
+63,"Trace cache: <*> uops, L1 D cache: <*>",5
+64,colour VGA+ <*>,1
+65,mounted filesystem with ordered data mode.,3
+66,"<*>a32.c,v 1.32 <*>/<*>/<*> <*>:<*>:<*> ak Exp $",1
+67,apic_id <*> version <*> address <*> GSI <*>-<*>,3
+68,"routing cache hash table of <*> buckets, <*>Kbytes",1
+69,PCI Hot Plug PCI Core version: <*>,1
+70,<*>=/ initrd=<*> console=<*> console=<*> fastboot BOOT_IMAGE=<*>,1
+71,Registered protocol family <*>,5
+72,Using software bounce buffering for IO (SWIOTLB),1
+73,Probing PCI hardware (bus <*>,1
+74,Transparent bridge - <*>,1
+75,Using ACPI for IRQ routing,1
+76,Using MMCONFIG at <*>,1
+77,Using configuration type <*>,1
+78,Compressed image found at block <*>,1
+79,Disabled at runtime.,1
+80,Initializing.,1
+81,Registering netfilter hooks,1
+82,Starting in permissive mode,1
+83,Unregistering netfilter hooks,1
+84,Hash tables configured (established <*> bind <*>,1
+85,Direct-Access ANSI SCSI revision: <*>,1
+86,Processor ANSI SCSI revision: <*>,1
+87,Disk quotas <*>,1
+88,Mounted root (ext2 filesystem).,1
+89,MegaRAID Model: <*> RAID<*> <*> Rev: <*>,1
+90,PE/PV Model: <*> SCSI BP Rev: <*>,1
+91,initialized,1
+92,initializing netlink socket (disabled),1
+93,passed.,1
+94,<*>-ioctl (<*>) initialised: <*>,1
+95,allocating divert_blk for <*>,2
+96,not allocating divert_blk for non-ethernet device <*>,2
+97,<*>:USB HID core driver,1
+98,<*>: e1000_probe: Intel(R) PRO/1000 Network Connection,2
+99,eth0: e1000_watchdog: NIC Link is Up <*> Mbps Full Duplex,1
+100,no floppy controllers found,1
+101,RNG not detected,1
+102,Wait for ready failed before probe !,6
+103,Assuming <*> system bus speed for PIO modes; override with idebus=<*>,1
+104,Unknown cmd fd(<*>) cmd(<*>){<*>} arg(<*>) on <*>,1
+105,(C) <*> Netfilter core team,4
+106,Installing public key data,1
+107,... autorun DONE.,2
+108,Autodetecting RAID arrays.,2
+109,autorun ...,2
+110,"md driver <*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*>",1
+111,<*> (Release Date: <*><*>,2
+112,fw version:[<*>] bios version:[H418],1
+113,probe new device <*>: bus <*>:slot <*>:func <*>,1
+114,PS/<*> mouse device common for all mice,1
+115,<*>.<*> (<*>),1
+116,rpc.statd startup succeeded,1
+117,portmap startup succeeded,1
+118,Starting ts_fixup: succeeded,1
+119,Version <*> Starting,1
+120,LSI Logic MegaRAID driver,1
+121,scanning scsi channel <*> [Phy <*>] for non-raid devices,1
+122,scanning scsi channel <*> [virtual] for logical drives,1
+123,asking for cache data failed,1
+124,assuming drive cache: write through,1
+125,<*> <*> <*> <*>,1
+126,Registering secondary module capability,1
+127,"<*> AUX port at <*>,<*> irq <*>",1
+128,"<*> KBD port at <*>,<*> irq <*>",1
+129,syslog-ng startup succeeded,1
+130,syslog-ng version <*> starting,1
+131,Detected <*> MHz processor.,1
+132,Using <*> MHz HPET timer.,1
+133,Using HPET based timekeeping.,1
+134,Creating Topspin <*> entries:,1
+135,registered new driver <*>,4
+136,probe of vesafb<*> failed with error <*>,1
+137,"connection from ""<*>""",2
+138,User <*> coming from <*> authenticated.,2
+139,Now running on <*>'s privileges.,2
+140,Mounting NFS filesystems: succeeded,1
+141,Mounting other filesystems: failed,1
+142,Warning: we failed to resolve data source name <*>,34
+143,Warning: we failed to resolve trusted host name <*>,1
+144,gmetad startup succeeded,1
+145,succeeded,2
+146,Server listening on :: port <*>,1
+147,error: Bind to port <*> on <*> failed: Address already in use.,1
+148,Cannot open file <*> for writing (No such file or directory),1
+149,Changing permissions on special file <*>,1
+150,xinetd startup succeeded,1
+151,Reading included configuration file: <*> [file=<*>] [line=<*>],17
+152,Started working: <*> available service,1
+153,removing <*>,16
+154,xinetd Version <*> started with libwrap loadavg options compiled in.,1
+155,Device: <*> Temperature changed <*> Celsius to <*> Celsius since last report,1

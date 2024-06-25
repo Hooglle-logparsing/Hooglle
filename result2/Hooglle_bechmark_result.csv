@@ -1,0 +1,4 @@
+,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+Dataset,HDFS,Hadoop,Spark,Zookeeper,OpenStack,BGL,HPC,Thunderbird,Windows,Linux,Mac,Android,HealthApp,Apache,OpenSSH,Proxifier
+GA,1.0,0.9765,0.999,1.0,1.0,0.971,0.9505,0.6835,0.996,0.9925,0.87,0.9685,0.9005,1.0,1.0,0.488
+PA,1.0,0.954,0.998,0.9795,0.9895,0.951,0.9495,0.647,0.707,0.982,0.6205,0.9455,0.8945,1.0,0.999,0.4865

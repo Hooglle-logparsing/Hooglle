@@ -1,0 +1,166 @@
+EventId,EventTemplate,Occurrences
+0,session closed for user <*>,24
+1,session opened for user <*> by (uid=<*>),19
+2,(root) CMD (<*>),19
+3,synchronized to <*>,396
+4,data_thread() got not answer from any [Thunderbird_<*>] datasource,819
+5,[ib_sm_sweep.c:<*>]: ********************** NEW SWEEP ********************,62
+6,[ib_sm_sweep.c:<*>]: No topology change,62
+7,[ib_sm_sweep.c:<*>]: No configuration change required,62
+8,Local disconnected: Connection closed.,3
+9,connection lost: '<*>',3
+10,unable to qualify my own domain name (<*>) -- using short name,10
+11,"j<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",10
+12,"j<*>: to=<*>, ctladdr=<*>, delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>]",10
+13,DHCPDISCOVER from <*> via eth1,5
+14,DHCPOFFER on <*> to <*> via eth1,5
+15,DHCPDISCOVER from <*> via eth1: network <*>: no free leases,15
+16,DHCPACK on <*> to <*> via eth1,3
+17,DHCPREQUEST for <*> (<*>.<*>.<*>.<*>) from <*> via eth1,3
+18,START: tftp pid=<*> from=<*>,1
+19,DHCPREQUEST for <*> (<*>.<*>.<*>.<*>) from <*> via eth1: unknown lease <*>.,9
+20,RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step),11
+21,kernel time sync disabled <*>,1
+22,time reset +<*> s,1
+23,Received SNMP packet(s) from <*>#,1
+24,"synchronized to <*>, stratum <*>",172
+25,kernel time sync enabled <*>,1
+26,My unqualified host name (<*>) unknown; sleeping for retry,5
+27,CentOS-<*> (Kernel Module GPG key),1
+28,(supports <*> S4 S5),1
+29,DSDT (v<*> DELL PE BKC <*> MSFT <*>,1
+30,FADT (v<*> DELL PE BKC <*> MSFT <*>,1
+31,HPET (v<*> DELL PE BKC <*> MSFT <*>) @ <*>,1
+32,HPET id: <*> base: <*>,1
+33,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl),1
+34,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> high level),1
+35,IOAPIC (id[<*>] address[<*>] gsi_base[<*>]),3
+36,IRQ<*> used by override.,3
+37,Interpreter enabled,1
+38,LAPIC (acpi_id[<*>] lapic_id[<*>] enabled),4
+39,LAPIC_NMI (acpi_id[<*>] high edge lint[<*>]),4
+40,Local APIC address <*>,1
+41,MADT (v<*> DELL PE BKC <*> MSFT <*>,1
+42,MCFG (v<*> DELL PE BKC <*> MSFT <*>,1
+43,PCI Interrupt Link [LNKA] (IRQs <*>) *<*>,1
+44,PCI Interrupt Link [LNKB] (IRQs <*> <*> <*> <*> <*> <*> *<*> <*>),1
+45,PCI Interrupt Link [LNKC] (IRQs <*>) *<*>,1
+46,"PCI Interrupt Link [LNKD] (IRQs <*>) *0, disabled.",1
+47,"PCI Interrupt Link [LNKE] (IRQs <*>) *<*>, disabled.",1
+48,"PCI Interrupt Link [LNKF] (IRQs <*>) *0, disabled.",1
+49,"PCI Interrupt Link [LNKG] (IRQs <*>) *<*>, disabled.",1
+50,"PCI Interrupt Link [LNKH] (IRQs <*>) *0, disabled.",1
+51,PCI Interrupt Routing Table [\_SB_.PCI0.PALO._PRT],1
+52,PCI Interrupt Routing Table [\_SB_.PCI0.<*>_PRT],9
+53,PCI Root Bridge [PCI0] (00:00),1
+54,"PCI interrupt <*> (level, low) -> IRQ <*>",11
+55,Power Button (FF) [PWRF],1
+56,Processor [CPU<*>] (supports C<*>),4
+57,RSDP (v<*> DELL ) @ <*>,1
+58,RSDT (v<*> DELL PE BKC <*> MSFT <*>,1
+59,SPCR (v<*> DELL PE BKC <*> MSFT <*>,1
+60,Subsystem revision <*>,1
+61,Using IOAPIC for interrupt routing,1
+62,Intel(R) Xeon(TM) CPU <*> stepping <*>,1
+63,L2 cache: <*>,5
+64,Physical Processor ID: <*>,5
+65,"Trace cache: <*> uops, L1 D cache: <*>",5
+66,colour VGA+ <*>,1
+67,mounted filesystem with ordered data mode.,3
+68,<*> <*> <*> <*> ak Exp $,1
+69,"apic_id <*>, version <*>, address <*>, GSI <*>-<*>",3
+70,"routing cache hash table of <*> buckets, <*>Kbytes",1
+71,PCI Hot Plug PCI Core version: <*>,1
+72,"root=LABEL=/ initrd=/x8<*>_<*>/initrd-2.<*>.9-5.<*>.5.EL-lustre-<*>.<*>.2-perfctr-admin console=tty<*> console=ttyS<*>,<*>92<*> fastboot BOOT_IMAGE=/x8<*>_<*>/vmlinuz-2.<*>.9-5.<*>.5.EL-lustre-<*>.<*>.2-perfctr",1
+73,Registered protocol family <*>,5
+74,Using software bounce buffering for IO (SWIOTLB),1
+75,Probing PCI hardware (bus <*>),1
+76,Transparent bridge - <*>,1
+77,Using ACPI for IRQ routing,1
+78,Using MMCONFIG at <*>,1
+79,Using configuration type <*>,1
+80,Compressed image found at block <*>,1
+81,Disabled at runtime.,1
+82,Initializing.,1
+83,Registering netfilter hooks,1
+84,Starting in permissive mode,1
+85,Unregistering netfilter hooks,1
+86,Hash tables configured (established <*> bind <*>,1
+87,Direct-Access ANSI SCSI revision: <*>,1
+88,Processor ANSI SCSI revision: <*>,1
+89,Disk quotas <*>,1
+90,Mounted root (ext2 filesystem).,1
+91,MegaRAID Model: LD <*> RAID1 <*>G Rev: <*>,1
+92,PE/PV Model: <*>x<*> SCSI BP Rev: <*>,1
+93,initialized,1
+94,initializing netlink socket (disabled),1
+95,passed.,1
+96,<*> (2003-<*>-<*>) initialised: #<*>#@#<*>#,1
+97,allocating divert_blk for <*>,2
+98,not allocating divert_blk for non-ethernet device <*>,2
+99,v2.<*>:USB HID core driver,1
+100,<*>: e1000_probe: Intel(R) PRO/1000 Network Connection,2
+101,eth0: e1000_watchdog: NIC Link is Up <*> Mbps Full Duplex,1
+102,no floppy controllers found,1
+103,RNG not detected,1
+104,Wait for ready failed before probe !,6
+105,Assuming <*>MHz system bus speed for PIO modes; override with idebus=<*>,1
+106,Unknown cmd fd(<*>) cmd(<*>){<*>} arg(<*>) on <*>,1
+107,(C) <*> Netfilter core team,4
+108,Installing public key data,1
+109,... autorun DONE.,2
+110,Autodetecting RAID arrays.,2
+111,autorun ...,2
+112,"md driver <*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*>",1
+113,<*> (Release Date: Fri Dec <*> <*> EST <*>,1
+114,#<*># (Release Date: <*>),1
+115,fw version:[<*>] bios version:[<*>],1
+116,probe new device <*>:0x<*>:0x<*>:0x<*>: bus <*>:slot <*>:func <*>,1
+117,PS/<*> mouse device common for all mice,1
+118,v2.<*> (<*>),1
+119,rpc.statd startup succeeded,1
+120,portmap startup succeeded,1
+121,Starting ts_fixup: succeeded,1
+122,Version <*> Starting,1
+123,LSI Logic MegaRAID driver,1
+124,scanning scsi channel <*> [Phy <*>] for non-raid devices,1
+125,scanning scsi channel <*> [virtual] for logical drives,1
+126,asking for cache data failed,1
+127,assuming drive cache: <*>,1
+128,sda1 sda2 sda3 sda4,1
+129,Registering secondary module capability,1
+130,i8042 AUX port at <*>,1
+131,i8042 KBD port at <*>,1
+132,syslog-ng startup succeeded,1
+133,syslog-ng version <*> starting,1
+134,Detected <*> MHz processor.,1
+135,Using <*> MHz HPET timer.,1
+136,Using HPET based timekeeping.,1
+137,Creating Topspin <*> entries:,1
+138,registered new driver <*>,4
+139,probe of <*> failed with error <*>,1
+140,"connection from ""#<*>#""",2
+141,"User #<*>#, coming from #<*>#, authenticated.",2
+142,Now running on <*> privileges.,2
+143,Mounting NFS filesystems: succeeded,1
+144,Mounting other filesystems: failed,1
+145,Warning: we failed to resolve data source name <*>,34
+146,Warning: we failed to resolve trusted host name <*>,1
+147,gmetad startup succeeded,1
+148,succeeded,2
+149,Server listening on :: port <*>.,1
+150,error: Bind to port <*> on <*> failed: Address already in use.,1
+151,Cannot open file <*> for writing (No such file or directory),1
+152,Changing permissions on special file <*>,1
+153,xinetd startup succeeded,1
+154,Reading included configuration file: <*> [file=<*>] [line=<*>],17
+155,Started working: <*> available service,1
+156,removing <*>,8
+157,removing daytime,2
+158,removing echo,2
+159,removing eklogin,1
+160,removing ftp,1
+161,removing klogin,1
+162,removing kshell,1
+163,xinetd Version <*> started with libwrap loadavg options compiled in.,1
+164,Device: <*>,1
